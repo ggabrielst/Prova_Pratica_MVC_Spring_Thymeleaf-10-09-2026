@@ -113,6 +113,9 @@ public Animal buscarPorId(int id) {
         );
         return new Animal(
             rs.getInt("id_animal"),
+
+**G.2**
+Teria dificuldade em reescrever as linhas que ditam o retorno dos parâmetros por que eu provavelmente me atrapalharia na hora de identificar e designar corretamente esses parâmetros.
             rs.getString("animal_nome"),
             rs.getString("especie"),
             rs.getInt("idade"),
