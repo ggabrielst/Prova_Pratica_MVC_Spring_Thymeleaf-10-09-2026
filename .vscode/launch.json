@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PetvidaApplication<petvida>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.edu.iftm.petvida.PetvidaApplication",
+            "projectName": "petvida",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
