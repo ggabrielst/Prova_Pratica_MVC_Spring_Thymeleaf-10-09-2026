@@ -98,6 +98,8 @@ Haveria o tráfego de centenas de megabytes de dados do banco de dados para a ap
 ## Parte F — Defesa escrita do seu código
 
 **G.1 e G.2**
+Teria dificuldade em reescrever as linhas que ditam o retorno dos parâmetros por que eu provavelmente me atrapalharia na hora de identificar e designar corretamente esses parâmetros.
+
 ```java
 public Animal buscarPorId(int id) {
     String sql = "SELECT a.id_animal, a.nome AS animal_nome, a.especie, a.idade, " +
@@ -118,8 +120,5 @@ public Animal buscarPorId(int id) {
             rs.getInt("idade"),
             tutor
         );
-
-
-Teria dificuldade em reescrever as linhas que ditam o retorno dos parâmetros por que eu provavelmente me atrapalharia na hora de identificar e designar corretamente esses parâmetros.
     }, id);
 }
